@@ -13,4 +13,8 @@ public class Main {
         String name = scanner.nextLine();
         System.out.println("Hello " + name + "!");
     }
+
+    public static void getDate() {
+        System.out.println(java.time.LocalDate.now()); 
+    }
 }
